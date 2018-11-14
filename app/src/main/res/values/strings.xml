@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">LiuMall</string>
+    <string name="app_name">Liu Mall</string>
+    <string name="nav_discover">DISCOVER</string>
+    <string name="nav_message">MESSAGE</string>
+    <string name="nav_mine">MINE</string>
+
 </resources>
