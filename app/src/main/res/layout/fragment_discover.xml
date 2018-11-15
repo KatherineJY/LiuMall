@@ -2,7 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <android.support.v4.view.ViewPager
+    <RadioGroup
+        android:id="@+id/discoverNav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:checkedButton="@id/radioHome">
+
+        <RadioButton
+            android:id="@+id/radioToSell"
+            android:text="@string/nav_discover"
+            style="@style/navItem"/>
+
+        <RadioButton
+            android:id="@+id/radioToBuy"
+            android:text="@string/nav_message"
+            style="@style/navItem"/>
+
+
+    </RadioGroup>
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.ghy.katherinejy.liumall.SettingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>]
 </LinearLayout>
