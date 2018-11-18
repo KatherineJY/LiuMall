@@ -1,4 +1,4 @@
-package com.ghy.katherinejy.latte.liumall;
+package com.ghy.katherinejy.latte.ec;
 
 import org.junit.Test;
 

@@ -1,1 +1,1 @@
-include ':app', ':latte-annotations', ':latte-compiler', ':latte-core', ':liumall'
+include ':app', ':latte-annotations', ':latte-compiler', ':latte-core', ':latte-ec', ':latte-ec'

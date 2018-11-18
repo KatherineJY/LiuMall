@@ -1,4 +1,4 @@
-package com.ghy.katherinejy.latte.liumall;
+package com.ghy.katherinejy.latte.ec;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ghy.katherinejy.latte.liumall.test", appContext.getPackageName());
+        assertEquals("com.ghy.katherinejy.latte.ec.test", appContext.getPackageName());
     }
 }
